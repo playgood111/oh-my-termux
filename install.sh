@@ -2,12 +2,10 @@
 
 termux-setup-storage
 
-mv /data/data/com.termux/files/usr/etc/apt/sources.list /data/data/com.termux/files/usr/etc/apt/sources.list.bak
-curl -fsSL https://raw.githubusercontent.com/4679/oh-my-termux/master/sources.list > /data/data/com.termux/files/usr/etc/apt/sources.list
 
 apt update
 apt install -y git zsh
-git clone git://github.com/4679/oh-my-termux.git oh-my-termux
+git clone git://github.com/playgood111/oh-my-termux.git oh-my-termux
 clear
 
 if [ -d "$HOME/.termux" ]; then
