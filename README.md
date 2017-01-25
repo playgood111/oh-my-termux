@@ -14,6 +14,6 @@ apt install -y curl
 
 # Installation
 ```bash
-bash -c "$(curl -fsSL https://git.io/vPBqX)"
+bash -c "$(curl -fsSL https://git.io/vMAi7)"
 ```
 changed for s7e.(incompleted)
